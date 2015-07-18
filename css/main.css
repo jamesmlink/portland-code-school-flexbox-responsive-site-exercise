@@ -96,8 +96,38 @@ textarea {
    ========================================================================== */
 
 
+   body{
+     margin-left:1rem;
+     margin-right:1rem;
+   }
 
+   h1{
+     font-size: 180%;
+   }
 
+   .flexContainer {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+   }
+
+   article {
+     background-color: #7FFFD4;
+     border-radius: 5px;
+     width: 20rem;
+     padding: 1rem;
+     margin-bottom: 1rem;
+     margin-top: 1rem;
+   }
+
+   h3 {
+     margin: 0;
+   }
+
+   p {
+     margin-top:0.5rem;
+     margin-bottom:0.5rem;
+   }
 
 
 
