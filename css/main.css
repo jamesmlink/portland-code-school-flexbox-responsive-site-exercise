@@ -95,48 +95,121 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header,.content,footer{
+  padding-left:1rem;
+  padding-right:1rem;
+}
 
-   body{
-     margin-left:1rem;
-     margin-right:1rem;
-   }
+body{
+  position:relative;
+  background-color:#908FFF;
+  color:#020133;
+}
 
-   h1{
-     font-size: 180%;
-   }
+h2{
+  margin:0.5rem;
+}
 
-   .flexContainer {
-     display: flex;
-     flex-flow: row wrap;
-     justify-content: space-around;
-   }
+h1{
+  display:inline-block;
+  font-size: 180%;
+  margin-top: 0.5rem;
+  margin-bottom:0.5rem;
+}
 
-   article {
-     background-color: #7FFFD4;
-     border-radius: 5px;
-     width: 20rem;
-     padding: 1rem;
-     margin-bottom: 1rem;
-     margin-top: 1rem;
-   }
+p.utilityNav{
+  display:inline-block;
+  float:right;
+  padding-right:2rem;
+  margin-bottom: 1rem;
+  background-color: #8EFFFF;
+}
 
-   h3 {
-     margin: 0;
-   }
+.flexContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
 
-   p {
-     margin-top:0.5rem;
-     margin-bottom:0.5rem;
-   }
+.flexContainercenter {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+header{
+  background-color: #8EFFFF;
+  margin-top:0px;
+  width: 100%;
+  position:fixed;
+  top: 0px;
+
+}
+
+ul.mainNav {
+  display:inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.mainNavLI {
+  float:left;
+  padding:0.25rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+  border: solid #8EFFFF 2px;
+  border-radius: 5px;
+  background-color: #020133;
+  color:#5496F1;
+}
+
+article {
+  width: 20rem;
+  margin: 1rem;
+}
+
+h3 {
+  margin: 0;
+  background-color: #020133;
+  color:#5496F1;
+  border-radius:5px;
+  padding-left:0.5rem;
+  padding-right:.5rem;
+  padding-top:0.05rem;
+  padding-bottom:0.05rem;
+}
+
+p {
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+  color: #020133;
+  background-color:white;
+  border-radius:5px;
+  padding:.5rem;
+}
 
 
+a{
+  text-decoration: underline;
+  font-weight: bold;
+  color:inherit;
+}
+
+a:hover{
+  color:#FF0042
+}
 
 
+footer{
+  background-color: #020133;
+  color:#5496F1;
+}
 
-
-
-
-
+p.footerparagraph{
+  color: #5496F1;
+  background-color: #020133;
+}
 
 
 
